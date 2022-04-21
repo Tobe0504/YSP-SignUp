@@ -64,3 +64,25 @@
     margin-right: .6em;
     cursor: pointer;
 }
+
+.transition-enter{
+    opacity: 0.1;
+    transform: translate(0, -10px)
+}
+
+.transition-enter-active{
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 30ms ease-in;
+}
+
+.transition-exit{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.transition-exit-active{
+    opacity: 0.1;
+    transform: translate(0, 10px);
+    transition: all 30ms ease-in;
+}

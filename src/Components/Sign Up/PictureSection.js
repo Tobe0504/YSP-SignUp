@@ -1,5 +1,7 @@
 import React, {useState}from "react";
-import Background from "./Images and Icons/Background 2.png";
+import Background_1 from "./Images and Icons/Background 1.png";
+import Background_2 from "./Images and Icons/Background 2.png"
+import Background_3 from "./Images and Icons/Background 3.png"
 import classes from "./PictureSection.module.css";
 
 const PictureSection = () => {
@@ -8,6 +10,7 @@ const [secondchecked, setSecondChecked] = useState(false)
 const [thirdchecked, setThirdChecked] = useState(false)
 const [textValue, setTextValue] = useState(
     {
+        picture: Background_1,
         header: "The Best Teachers",
         body: "Online classes taught by dedicated teachers with decades of experienc helping students succeed.",
     }
@@ -19,6 +22,7 @@ const firstCheck = () => {
     setThirdChecked(false)
     setTextValue(
         {
+            picture: Background_1,
             header: "The Best Teachers",
             body: "Online classes taught by dedicated teachers with decades of experienc helping students succeed.",
         }
@@ -31,6 +35,7 @@ const secondCheck = () => {
     setThirdChecked(false)
     setTextValue(
         {
+            picture: Background_2,
             header: "Watch offline, Anytime", 
             body: "Access videos, notes and study aids anywhere, anytime. Online or offline, get the best study help."
         }
@@ -43,6 +48,7 @@ const thirdCheck = () => {
     setThirdChecked(true)
     setTextValue(
         {
+            picture: Background_3,
             header: "Curriculum based learning",
             body: "Lessons based on current and approved curriculum to keep you updated and covered.",
         }
@@ -52,7 +58,7 @@ const thirdCheck = () => {
   return (
     <div className={classes.container}>
       <div className={classes.imageSection}>
-        <img src={Background} alt="Background" />
+        <img src={textValue.picture} alt="Background" />
       </div>
 
       <div className={classes.textSection}>
