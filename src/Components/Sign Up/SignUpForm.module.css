@@ -237,6 +237,13 @@ input[type = "password"]{
 
 @media(max-width: 767px){
 
+    .yspLogo{
+        /* border: 2px solid black; */
+        width: 60%;
+        height: 40%;
+        margin: 1em 0em;
+    }
+
     .container h1{
         font-size: 1.6rem;
     }
@@ -268,7 +275,7 @@ input[type = "password"]{
         border: 3px solid rgba(126, 139, 182, 0.3);
         border-radius: 10px;
         width: 85%;
-        height: .8em;
+        height: .7em;
         margin: .5em 0em;
         padding: .7em;
     }
@@ -277,7 +284,7 @@ input[type = "password"]{
         border: 3px solid red;
         border-radius: 10px;
         width: 85%;
-        height: .8em;
+        height: .7em;
         margin: .5em 0em;
         padding: .7em;
     }
@@ -304,6 +311,14 @@ input[type = "password"]{
         font-size: .8rem;
         padding: .8em;
         border: 1px solid linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%);
+    }
+
+    .checkbox{
+        width: 10%;
+    }
+    
+    .checkboxText{
+        width: 90%;
     }
 
 }
