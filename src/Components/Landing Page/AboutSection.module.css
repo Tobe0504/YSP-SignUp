@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy Font/Gilroy-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy Font/Gilroy-Regular.woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy Font/Gilroy-SemiBold.woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 8em;
+}
+
+.textSection {
+  width: 35%;
+  /* border: 1px solid black; */
+}
+
+.textSection hr {
+  display: inline-block;
+  width: 1em;
+  color: #1a1a1a;
+  position: relative;
+  top: 4px;
+}
+
+.aim {
+  font-size: 0.8rem;
+  font-family: Gilroy;
+  font-weight: 400;
+}
+
+.textSection h2 {
+  font-family: Gilroy;
+  font-weight: 600;
+  margin-top: 0.5em;
+  color: #1a1a1a;
+}
+
+.textSection p {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #303030;
+}
+
+.textSection button {
+  width: 35%;
+  font-size: 0.9rem;
+  padding: 0.8em;
+  margin: 2.5em 0em;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
+  border-radius: 40px;
+  border: #2855ae;
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(50, 145, 255, 0.3);
+}
+
+.imageSection {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.imageSection img {
+  border-radius: 24px;
+}
+
+@media (max-width: 676px) {
+  .container {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 0em;
+    flex-wrap: wrap;
+  }
+  .textSection {
+    width: 100%;
+    /* border: 1px solid black; */
+    order: 0;
+    margin-bottom: 1em;
+  }
+
+  .textSection h2 {
+    /* font-size: 1.5rem; */
+  }
+
+  .textSection button {
+    /* border: 1px solid black; */
+    position: relative;
+    left: 32%;
+  }
+
+  .imageSection {
+    width: 100%;
+    order: 1;
+    margin-bottom: 2em;
+    /* border: 1px solid black; */
+  }
+
+  .imageSection img {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 0em;
+    flex-wrap: wrap;
+  }
+  .textSection {
+    width: 100%;
+    /* border: 1px solid black; */
+    order: 0;
+    margin-bottom: 1em;
+  }
+
+  .textSection h2 {
+    /* font-size: 1.5rem; */
+  }
+
+  .textSection button {
+    /* border: 1px solid black; */
+    position: relative;
+    left: 32%;
+  }
+
+  .imageSection {
+    width: 100%;
+    order: 1;
+    margin-bottom: 2em;
+    /* border: 1px solid black; */
+  }
+
+  .imageSection img {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+}

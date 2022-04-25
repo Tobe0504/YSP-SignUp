@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src//Components/Fonts/Gilroy-Light.woff");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src//Components/Fonts/Gilroy-Medium.woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+.container {
+  /* border: 1px solid black; */
+  padding: 2rem 0rem;
+  font-family: Gilroy;
+}
+
+.subContainer {
+  /* border: 1px solid black; */
+  width: 65%;
+  margin: auto;
+  padding: 3em 0em;
+}
+
+.subContainer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.subContainer ul li a {
+  color: #6a6a6a;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.logoSection {
+  /* border: 3px solid green; */
+  width: 40%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.logoSection img {
+  /* border: 3px solid green; */
+  width: 40%;
+  margin: 2em;
+  height: 10em;
+}
+
+.logoSection p {
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: 0em auto;
+  color: #6a6a6a;
+  font-weight: 400;
+}
+
+.socialsSection {
+  /* border: 1px solid black; */
+  margin: 3em auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialsSection a img {
+  /* border: 1px solid black; */
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 676px) {
+  .container {
+    /* border: 1px solid black; */
+    padding: 2rem 0rem;
+    font-family: Gilroy;
+    width: 90%;
+    margin: auto;
+  }
+
+  .subContainer {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 3em 0em;
+  }
+
+  .subContainer ul {
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .subContainer ul li {
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  .logoSection img {
+    /* border: 3px solid green; */
+    width: 60%;
+    margin: 1em;
+    height: 6em;
+  }
+
+  .logoSection p {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 0em auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    /* border: 1px solid black; */
+    padding: 1rem 0rem;
+    font-family: Gilroy;
+    width: 90%;
+    margin: auto;
+  }
+
+  .subContainer {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 3em 0em;
+  }
+
+  .subContainer ul {
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .logoSection img {
+    /* border: 3px solid green; */
+    width: 40%;
+    margin: 1em;
+    height: 8em;
+  }
+
+  .logoSection p {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 0em auto;
+  }
+}

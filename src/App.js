@@ -1,10 +1,14 @@
 import React from "react";
-import SignUp from "./Components/Sign Up/SignUp";
+import Footer from "./Components/Footer";
+// import SignUp from "./Components/Sign Up/SignUp";
+import LandingPage from "./Components/Landing Page/LandingPage";
 
 function App() {
   return (
     <div>
-      <SignUp />
+      {/* <SignUp /> */}
+      <LandingPage />
+      <Footer />
     </div>
   );
 }

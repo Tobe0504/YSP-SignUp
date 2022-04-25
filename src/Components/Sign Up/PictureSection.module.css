@@ -1,88 +1,88 @@
 @font-face {
-    font-family: "Gilroy";
-    src: url('./Fonts/Gilroy-Bold.woff');
-    font-style: normal;
-    font-weight: 300;
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Bold.woff");
+  font-style: normal;
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: url('./Fonts/Gilroy-Light.woff');
-    font-style: normal;
-    font-weight: 100;
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Light.woff");
+  font-style: normal;
+  font-weight: 100;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    height: 100%;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 100%;
 }
 
-.imageSection{
-    height: 60%;
-    align-items: center;
+.imageSection {
+  height: 60%;
+  align-items: center;
 }
 
-.imageSection img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.textSection{
-    /* border: 1px solid black; */
-    width: 40%;
-    height: 30%;
-    margin: auto;
-    text-align: center;
+.textSection {
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
 }
 
-.textSection h3{
-    font-family: Gilroy;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: #444F60;
-    margin: 1rem 0rem;
+.textSection h3 {
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #444f60;
+  margin: 1rem 0rem;
 }
 
-.textSection p{
-    font-family: Gilroy ;
-    font-weight: 100;
-    font-size: .9rem;
-    line-height: 1.3rem;
-    color: #999999;
-    margin: .1rem 0rem;
-    transition: 2s;
+.textSection p {
+  font-family: Gilroy;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #999999;
+  margin: 0.1rem 0rem;
+  transition: 2s;
 }
 
-.radio{
-    margin-top: 2em;
+.radio {
+  margin-top: 2em;
 }
 
-.radio input{
-    margin-right: .6em;
-    cursor: pointer;
+.radio input {
+  margin-right: 0.6em;
+  cursor: pointer;
 }
 
-.transition-enter{
-    opacity: 0.1;
-    transform: translate(0, -10px)
+.transition-enter {
+  opacity: 0.1;
+  transform: translate(0, -10px);
 }
 
-.transition-enter-active{
-    opacity: 1;
-    transform: translate(0, 0);
-    transition: all 30ms ease-in;
+.transition-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 30ms ease-in;
 }
 
-.transition-exit{
-    opacity: 1;
-    transform: translate(0, 0);
+.transition-exit {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
-.transition-exit-active{
-    opacity: 0.1;
-    transform: translate(0, 10px);
-    transition: all 30ms ease-in;
+.transition-exit-active {
+  opacity: 0.1;
+  transform: translate(0, 10px);
+  transition: all 30ms ease-in;
 }

@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Light.woff");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../Fonts/AvenirLTStd-Black.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../Fonts/AvenirLTStd-Roman.otf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+.container {
+  /* border: 3px solid black; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 1.5em;
+}
+
+.logoSection {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+
+.logoSection img {
+  width: 35%;
+  height: 100%;
+}
+
+.actionSection {
+  /* border: 1px solid black; */
+  width: 30%;
+  padding-top: 1em;
+  text-align: right;
+}
+
+.actionSection a {
+  margin: 0em 3em 0em 0em;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-family: Gilroy;
+  font-weight: 100;
+}
+
+.actionSection button {
+  width: 40%;
+  font-size: 0.9rem;
+  padding: 0.8em;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
+  border-radius: 33px;
+  border: #2855ae;
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.actionSection button:hover {
+  background: #2855ae;
+}
+
+.actionSection button:active {
+  background: #7292cf;
+}
+
+.sideNavOpener {
+  display: none;
+}
+
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #e5e5e5;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
+}
+
+.sideNav .sideNavLink {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  margin: 2em 0em;
+}
+
+.sideNav a:hover {
+  color: grey;
+}
+
+.sideNav .btnClose {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  background: transparent;
+  border: none;
+  color: #b4b4b4;
+  text-align: right;
+  width: 30%;
+  margin-left: 60%;
+}
+
+.getStartedbutton {
+  text-align: center;
+}
+
+.getStartedbutton button {
+  width: 30%;
+  font-size: 0.9rem;
+  padding: 0.8em;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
+  border-radius: 33px;
+  border: #2855ae;
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.getStartedbutton button:hover {
+  background: #2855ae;
+}
+
+.getStartedbutton button:active {
+  background: #7292cf;
+}
+
+@media (max-width: 767px) {
+  .sideNavOpener {
+    display: block;
+    /* position: relative;
+    right: 2rem; */
+  }
+  .logoSection img {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5rem;
+  }
+  .actionSection {
+    /* border: 1px solid black; */
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sideNavOpener {
+    display: block;
+    position: relative;
+    /* right: 1rem; */
+  }
+  .logoSection img {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 5rem;
+  }
+  .actionSection {
+    /* border: 1px solid black; */
+    display: none;
+  }
+}
