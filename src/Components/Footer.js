@@ -31,18 +31,18 @@ const Footer = () => {
         </div>
 
         <div className={classes.socialsSection}>
-          <a href="#0">
+          <a href="https://www.instagram.com/yourstudypath/">
             <img src={ig} alt="Instagram" />
           </a>
-          <a href="#0">
-            <img src={fb} alt="Instagram" />
+          <a href="https://www.facebook.com/YourStudyPath/">
+            <img src={fb} alt="Faceebook" />
           </a>
-          <a href="#0">
+          <a href="https://twitter.com/yourstudypath">
             <img src={twitter} alt="Twitter" />
           </a>
-          <a href="#0">
+          {/* <a href="#0">
             <img src={tiktok} alt="TikTok" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
