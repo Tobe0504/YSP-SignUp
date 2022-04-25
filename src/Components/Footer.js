@@ -4,7 +4,7 @@ import yspLogo from "./Images and Icons/YSP Logo 1.png";
 import ig from "./Images and Icons/ig.png";
 import fb from "./Images and Icons/fb.png";
 import twitter from "./Images and Icons/twitter.png";
-import tiktok from "./Images and Icons/tiktok.png";
+// import tiktok from "./Images and Icons/tiktok.png";
 
 const Footer = () => {
   return (
