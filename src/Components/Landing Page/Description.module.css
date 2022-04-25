@@ -29,7 +29,7 @@
 
 .container h1 {
   font-weight: 700;
-  color: #1a1a1a;
+  color: #d9d9d9;
 }
 
 .container p {
@@ -37,7 +37,7 @@
   margin: 1em auto 3em auto;
   font-size: 0.9rem;
   /* color: #1a1a1a; */
-  color: #1a1a1a;
+  color: #d9d9d9;
   font-weight: 400;
 }
 
@@ -69,6 +69,7 @@
     /* border: 1px solid black; */
     width: 70%;
     margin: 5em auto;
+    padding: 0em 0em 3em 0em;
   }
 
   .container h1 {
