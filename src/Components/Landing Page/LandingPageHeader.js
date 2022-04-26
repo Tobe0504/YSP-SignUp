@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Images and Icons/YSP Logo 2.png";
+import Logo from "../Images and Icons/YSP Logo 3.png";
 import classes from "./LandingPageHeader.module.css";
 import menuOpener from "../Images and Icons/menu opener.png";
 
