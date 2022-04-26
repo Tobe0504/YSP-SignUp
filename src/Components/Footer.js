@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className={classes.logoSection}>
           <img src={yspLogo} alt="YSP Logo" />
-          <p>Acing your papers in the most interesting way</p>
+          <p>Making learning Interesting again</p>
         </div>
         <div className={classes.socialsSection}>
           <a href="https://www.instagram.com/yourstudypath/">
