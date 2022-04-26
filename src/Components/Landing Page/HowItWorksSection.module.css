@@ -20,10 +20,8 @@
 }
 
 .container {
-  /* border: 1px solid black; */
   width: 90%;
-  margin: auto;
-  margin: 4em;
+  margin: 4em auto;
 }
 
 .container h2 {
