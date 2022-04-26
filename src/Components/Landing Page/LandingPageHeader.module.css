@@ -36,22 +36,15 @@
 }
 
 .logoSection {
-  /* border: 1px solid black; */
   width: 30%;
 }
-/* 
-.logoSection img {
-  width: 35%;
-  height: 100%;
-} */
 
 .logoSection img {
-  width: 35%;
+  width: 45%;
   height: 100%;
 }
 
 .actionSection {
-  /* border: 1px solid black */
   width: 30%;
   padding-top: 1em;
   text-align: right;
@@ -169,7 +162,7 @@
   }
   .logoSection img {
     width: 100%;
-    height: 4rem;
+    height: 100%;
   }
   .actionSection {
     display: none;
@@ -184,15 +177,12 @@
   .sideNavOpener {
     display: block;
     position: relative;
-    /* right: 1rem; */
   }
   .logoSection img {
-    /* border: 1px solid black; */
     width: 80%;
-    height: 5rem;
+    height: 100%;
   }
   .actionSection {
-    /* border: 1px solid black; */
     display: none;
   }
 }
