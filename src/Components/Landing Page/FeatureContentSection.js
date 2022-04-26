@@ -13,7 +13,9 @@ const FeatureContentSection = () => {
         </div>
 
         <div className={classes.textSection}>
-          <h2>Start learning with vetted experts</h2>
+          <h2 className={classes.vettedExperts}>
+            Start learning with vetted experts
+          </h2>
           <p>
             Classes are taught by well experienced teachers with the aid of
             technology to keep you excited and make learning interesting again.

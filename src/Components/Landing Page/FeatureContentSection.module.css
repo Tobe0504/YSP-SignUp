@@ -57,6 +57,7 @@
   font-family: Gilroy;
   font-weight: 400;
   color: #303030;
+  line-height: 1.5rem;
 }
 
 @media (max-width: 676px) {
@@ -72,6 +73,15 @@
   .subContainer div {
     width: 100%;
     /* border: 2px solid purple; */
+  }
+
+  .textSection h2 {
+    /* border: 2px solid black; */
+    width: 80%;
+    font-family: Gilroy;
+    font-weight: 600;
+    color: #1a1a1a;
+    /* margin: auto; */
   }
   .imageSection {
     /* border: 2px solid black; */
@@ -95,6 +105,7 @@
     margin: 2rem 0rem;
     /* border: 2px solid purple; */
   }
+
   .imageSection {
     /* border: 2px solid black; */
     order: 1;

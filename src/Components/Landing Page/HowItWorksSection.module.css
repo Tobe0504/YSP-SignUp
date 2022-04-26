@@ -77,10 +77,13 @@
   }
 
   .subContainer div {
-    /* border: 1px solid black; */
     margin: 1em 1em;
     width: 100%;
-    padding: 1em;
+    padding: 3em 1em;
+  }
+
+  .subContainer div h4 {
+    margin: 0.8em;
   }
 }
 
