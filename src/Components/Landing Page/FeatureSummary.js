@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./FeatureSummary.module.css";
-import Lecture from "../Images and Icons/Lecture icon.png";
-import Recurrent from "../Images and Icons/Recurent icon.png";
-import Graduant from "../Images and Icons/Graduation icon.png";
+import Lecture from "../Images and Icons/Lecture Icon 2.png";
+import Recurrent from "../Images and Icons/Recurent icon 2.png";
+import Graduant from "../Images and Icons/Graduation Icon 2.png";
 
 const FeatureSummary = () => {
   return (

@@ -13,6 +13,8 @@ const FeatureContentSection = () => {
         </div>
 
         <div className={classes.textSection}>
+          <hr />
+          <span className={classes.aim}>Our Classes</span>
           <h2 className={classes.vettedExperts}>
             Start learning with vetted experts
           </h2>
@@ -25,6 +27,8 @@ const FeatureContentSection = () => {
 
       <div className={classes.subContainer}>
         <div className={classes.textSection}>
+          <hr />
+          <span className={classes.aim}>Our Resources</span>
           <h2>Check out materials you need to excel in exams</h2>
           <p>
             We provide high quality and well detailed study materials you need
@@ -42,10 +46,12 @@ const FeatureContentSection = () => {
           <img src={Feature2} alt="Feature 1" />
         </div>
         <div className={classes.textSection}>
+          <hr />
+          <span className={classes.aim}>Our Tutors</span>
           <h2>Whenever you need help we’ll be there to answer</h2>
           <p>
-            We provide high quality and well detailed study materials you need
-            to excel in your next exam.
+            Connect with our expert tutors whenever you might need their help.
+            Whatever question you might have they’re always ready to answer.
           </p>
         </div>
       </div>

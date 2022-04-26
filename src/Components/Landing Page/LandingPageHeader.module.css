@@ -46,14 +46,14 @@
 }
 
 .actionSection {
-  /* border: 1px solid black; */
+  /* border: 1px solid black */
   width: 30%;
   padding-top: 1em;
   text-align: right;
 }
 
 .actionSection a {
-  margin: 0em 3em 0em 0em;
+  margin: 0em 2em 0em 0em;
   text-decoration: none;
   color: #ffffff;
   font-family: Gilroy;
@@ -61,17 +61,19 @@
 }
 
 .actionSection button {
-  width: 40%;
+  width: 45%;
   font-size: 0.9rem;
   padding: 0.8em;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
   border-radius: 33px;
   border: #2855ae;
-  color: #d9d9d9;
-  font-family: Gilroy;
-  font-weight: 700;
+  color: #ffffff;
+  font-family: Avenir;
+  font-weight: 100;
+  font-size: 0.9em;
   cursor: pointer;
+  height: 2.5rem;
 }
 
 .actionSection button:hover {
@@ -101,16 +103,15 @@
 }
 
 .sideNav .sideNavLink {
-  /* border: 1px solid black; */
   width: 85%;
   padding: 10px 10px 10px 30px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2rem;
   color: black;
   display: block;
   transition: 0.3s;
   text-align: center;
-  margin: 2em 0em;
+  margin: 2em auto;
 }
 
 .sideNav a:hover {
@@ -118,7 +119,6 @@
 }
 
 .sideNav .btnClose {
-  border: 2px solid green;
   position: absolute;
   top: 0;
   font-size: 36px;
@@ -131,15 +131,15 @@
 }
 
 .getStartedbutton {
-  /* border: 1px solid black; */
-  width: 100%;
+  width: 80%;
   text-align: center;
+  margin: auto;
 }
 
 .getStartedbutton button {
-  width: 30%;
+  width: 40%;
   font-size: 0.9rem;
-  padding: 0.8em;
+  padding: 0.6em;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
   border-radius: 33px;
@@ -148,6 +148,7 @@
   font-family: Gilroy;
   font-weight: 700;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .getStartedbutton button:hover {
@@ -161,16 +162,12 @@
 @media (max-width: 767px) {
   .sideNavOpener {
     display: block;
-    /* position: relative;
-    right: 2rem; */
   }
   .logoSection img {
-    /* border: 1px solid black; */
     width: 100%;
     height: 4rem;
   }
   .actionSection {
-    /* border: 1px solid black; */
     display: none;
   }
 }

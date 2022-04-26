@@ -1,7 +1,7 @@
 import React from "react";
-import group1 from "../Images and Icons/Group 1.png";
-import group2 from "../Images and Icons/Group 2.png";
-import group3 from "../Images and Icons/Group 3.png";
+import group1 from "../Images and Icons/Group 1 2.png";
+import group2 from "../Images and Icons/Group 2 3.png";
+import group3 from "../Images and Icons/Group 3 4.png";
 import classes from "./HowItWorksSection.module.css";
 
 const HowItWorksSection = () => {

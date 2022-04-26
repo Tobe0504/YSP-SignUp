@@ -28,7 +28,6 @@
 }
 
 .socialLinks {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -46,7 +45,7 @@
 .logoSection {
   /* border: 3px solid green; */
   width: 40%;
-  margin: auto;
+  margin: 2em auto;
   height: 100%;
   text-align: center;
 }
@@ -61,9 +60,9 @@
 .logoSection p {
   /* border: 1px solid black; */
   width: 70%;
-  margin: 0em auto;
+  margin: 0em auto 4.5em auto;
   color: #6a6a6a;
-  font-weight: 400;
+  line-height: 1.5rem;
 }
 
 .socialsSection {
@@ -98,7 +97,7 @@
 
   .socialLinks {
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin: auto;
     text-align: center;
   }
@@ -106,20 +105,14 @@
   .socialLinks a {
     text-decoration: none;
     color: #6a6a6a;
-    width: 40%;
+    width: 50%;
     margin: 0.5em 0em;
     text-align: center;
+    /* border: 3px solid green; */
   }
   .rightink {
     text-align: right;
   }
-  /* .subContainer ul li {
-    border: 1px solid black;
-    width: 100%;
-    margin: 1em auto;
-    text-align: center;
-    text-align: center;
-  } */
 
   .logoSection img {
     /* border: 3px solid green; */
@@ -132,6 +125,14 @@
     /* border: 1px solid black; */
     width: 100%;
     margin: 0em auto;
+  }
+
+  .socialsSection {
+    /* border: 1px solid black; */
+    margin: 3em auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -163,6 +164,7 @@
     width: 50%;
     margin: 0.5em 0em;
     text-align: center;
+    font-size: 1.2rem;
   }
 
   .logoSection img {
@@ -176,5 +178,6 @@
     /* border: 1px solid black; */
     width: 100%;
     margin: 0em auto;
+    font-size: 1.2rem;
   }
 }

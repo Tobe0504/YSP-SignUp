@@ -4,7 +4,7 @@ import yspLogo from "./Images and Icons/YSP Logo 1.png";
 import ig from "./Images and Icons/ig.png";
 import fb from "./Images and Icons/fb.png";
 import twitter from "./Images and Icons/twitter.png";
-// import tiktok from "./Images and Icons/tiktok.png";
+import linkedIn from "./Images and Icons/linkedIn.png";
 
 const Footer = () => {
   return (
@@ -34,9 +34,9 @@ const Footer = () => {
           <a href="https://twitter.com/yourstudypath">
             <img src={twitter} alt="Twitter" />
           </a>
-          {/* <a href="#0">
-            <img src={tiktok} alt="TikTok" />
-          </a> */}
+          <a href="https://www.linkedin.com/company/yourstudypath/ ">
+            <img src={linkedIn} alt="TikTok" />
+          </a>
         </div>
       </div>
     </div>

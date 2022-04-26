@@ -21,7 +21,7 @@
 
 .container {
   width: 90%;
-  margin: 4em auto;
+  margin: 8em auto;
 }
 
 .container h2 {
@@ -39,11 +39,11 @@
 .subContainer div {
   /* border: 1px solid black; */
   margin: 2em 1em;
-  width: 32%;
+  width: 35%;
   text-align: center;
   background: #f2f3f8;
   border-radius: 24px;
-  padding: 3em;
+  padding: 4em 3em 4em 3em;
 }
 
 .subContainer div h4 {
@@ -51,16 +51,19 @@
   font-family: Gilroy;
   font-weight: 600;
   color: #1a1a1a;
+  font-size: 1.2rem;
+  margin: 0.8em auto 0.8rem auto;
 }
 
 .subContainer div p {
   /* border: 1px solid black; */
   font-family: Gilroy;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #1a1a1a;
   width: 80%;
-  margin: auto;
+  margin: 0.5em auto;
+  line-height: 1.5rem;
 }
 
 @media (max-width: 676px) {
@@ -89,8 +92,7 @@
   .container {
     /* border: 1px solid black; */
     width: 90%;
-    margin: auto;
-    margin: 2em;
+    margin: 2em auto;
   }
   .subContainer {
     flex-wrap: wrap;
@@ -99,7 +101,7 @@
   .subContainer div {
     /* border: 1px solid black; */
     margin: 1em auto;
-    width: 60%;
-    padding: 1em;
+    width: 80%;
+    padding: 3em 0em;
   }
 }
