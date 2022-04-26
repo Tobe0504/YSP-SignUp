@@ -16,6 +16,7 @@
   /* border: 1px solid black; */
   padding: 2rem 0rem;
   font-family: Gilroy;
+  width: 90%;
 }
 
 .subContainer {
@@ -25,16 +26,20 @@
   padding: 3em 0em;
 }
 
-.subContainer ul {
+.socialLinks {
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   list-style: none;
+  width: 100%;
+  color: #6a6a6a;
+  text-decoration: none;
+  font-weight: 400;
 }
 
-.subContainer ul li a {
-  color: #6a6a6a;
-  font-weight: 400;
+.socialLinks a {
   text-decoration: none;
+  color: #6a6a6a;
 }
 
 .logoSection {
@@ -87,20 +92,33 @@
     /* border: 1px solid black; */
     width: 100%;
     padding: 3em 0em;
+    margin: auto;
   }
 
-  .subContainer ul {
-    /* border: 1px solid black; */
+  .socialLinks {
     flex-wrap: wrap;
-    width: 90%;
-  }
-
-  .subContainer ul li {
-    /* border: 1px solid black; */
-    width: 50%;
-    margin: 1em auto;
+    width: 100%;
+    margin: auto;
     text-align: center;
   }
+
+  .socialLinks a {
+    text-decoration: none;
+    color: #6a6a6a;
+    width: 40%;
+    margin: 0.5em 0em;
+    text-align: center;
+  }
+  .rightink {
+    text-align: right;
+  }
+  /* .subContainer ul li {
+    border: 1px solid black;
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+    text-align: center;
+  } */
 
   .logoSection img {
     /* border: 3px solid green; */
@@ -131,10 +149,19 @@
     padding: 3em 0em;
   }
 
-  .subContainer ul {
-    /* border: 1px solid black; */
+  .socialLinks {
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .socialLinks a {
+    text-decoration: none;
+    color: #6a6a6a;
+    width: 50%;
+    margin: 0.5em 0em;
+    text-align: center;
   }
 
   .logoSection img {

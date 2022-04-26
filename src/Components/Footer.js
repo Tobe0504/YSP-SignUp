@@ -10,26 +10,20 @@ const Footer = () => {
   return (
     <div className={classes.container}>
       <div className={classes.subContainer}>
-        <ul>
-          <li>
-            <a href="#0">Terms of Services</a>{" "}
-          </li>
-          <li>
-            <a href="#0">FAQs </a>
-          </li>
-          <li>
-            <a href="#0">Privacy Policy</a>{" "}
-          </li>
-          <li>
-            <a href="#0">Contact Us </a>
-          </li>
-        </ul>
-
+        <div className={classes.socialLinks}>
+          <a href="#0">Terms of Services</a>{" "}
+          <a href="#0" className={classes.rightLink}>
+            FAQs{" "}
+          </a>
+          <a href="#0">Privacy Policy</a>{" "}
+          <a href="#0" className={classes.rightLink}>
+            Contact Us{" "}
+          </a>
+        </div>
         <div className={classes.logoSection}>
           <img src={yspLogo} alt="YSP Logo" />
           <p>Acing your papers in the most interesting way</p>
         </div>
-
         <div className={classes.socialsSection}>
           <a href="https://www.instagram.com/yourstudypath/">
             <img src={ig} alt="Instagram" />

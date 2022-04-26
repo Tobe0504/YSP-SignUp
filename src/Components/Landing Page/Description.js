@@ -11,7 +11,9 @@ const Description = () => {
         sitting.
       </p>
 
-      <button>Get Started</button>
+      <a href="https://app.yourstudypath.com/">
+        <button>Get Started</button>
+      </a>
     </div>
   );
 };

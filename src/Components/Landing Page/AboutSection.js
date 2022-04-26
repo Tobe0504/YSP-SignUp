@@ -17,7 +17,9 @@ const AboutSection = () => {
           Our goal is to improve the eductional sector and economy of the
           country.
         </p>
-        <button>Enroll Now</button>
+        <a href="https://app.yourstudypath.com/">
+          <button>Enroll Now</button>
+        </a>
       </div>
 
       <div className={classes.imageSection}>

@@ -20,19 +20,26 @@ const LandingPageHeader = () => {
       </div>
 
       <div className={classes.actionSection}>
-        <a href="#0">Log In</a>
-        <button>Start Learning</button>
+        <a href="https://app.yourstudypath.com/">Log In</a>
+        <a href="https://app.yourstudypath.com/">
+          <button>Start Learning</button>
+        </a>
       </div>
 
       <div id="sideMenu" className={classes.sideNav}>
         <button className={classes.btnClose} onClick={closeSideMenu}>
           &times;
         </button>
-        <a href="#0" className={classes.sideNavLink}>
+        <a
+          href="https://app.yourstudypath.com/"
+          className={classes.sideNavLink}
+        >
           Login
         </a>
         <div className={classes.getStartedbutton}>
-          <button>Get Started</button>
+          <a href="https://app.yourstudypath.com/">
+            <button>Get Started</button>
+          </a>
         </div>
       </div>
       <div className={classes.sideNavOpener}>
