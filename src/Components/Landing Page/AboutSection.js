@@ -10,12 +10,18 @@ const AboutSection = () => {
         <span className={classes.aim}>Our Aim</span>
         <h2>About Your Study Path</h2>
         <p>
-          We are a high end, technolgy oriented education platform providing
-          students with affordable and high quality eductional materials .
+          We are a high-end Education Technology platform designed to provide
+          students with affordable High quality prerecorded classes and
+          Materials to ensure every student achieves the grade of their dreams.
         </p>
         <p>
-          Our goal is to improve the eductional sector and economy of the
-          country.
+          We are passionate about investing in the lives of students through the
+          use of educational videos delivered by experts to engage and improve
+          their learning.
+        </p>
+        <p>
+          Our goal is to impact practical knowledge of things taught in schools
+          to widen students’ understanding.
         </p>
         <a href="https://app.yourstudypath.com/">
           <button>Enroll Now</button>
