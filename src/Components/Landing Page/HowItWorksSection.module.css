@@ -47,7 +47,6 @@
 }
 
 .subContainer div h4 {
-  /* border: 1px solid black; */
   font-family: Gilroy;
   font-weight: 600;
   color: #1a1a1a;
@@ -56,12 +55,11 @@
 }
 
 .subContainer div p {
-  /* border: 1px solid black; */
   font-family: Gilroy;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 16px;
   color: #1a1a1a;
-  width: 80%;
+  width: 100%;
   margin: 0.5em auto;
   line-height: 1.5rem;
 }

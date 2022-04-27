@@ -27,7 +27,6 @@
 }
 
 .container {
-  /* border: 3px solid black; */
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -58,6 +57,11 @@
   font-weight: 100;
 }
 
+.actionSection a:nth-child(1) {
+  position: relative;
+  left: 33px;
+}
+
 .actionSection button {
   width: 45%;
   font-size: 0.9rem;
@@ -72,6 +76,8 @@
   font-size: 0.9em;
   cursor: pointer;
   height: 2.5rem;
+  position: relative;
+  left: 33px;
 }
 
 .actionSection button:hover {
@@ -95,7 +101,7 @@
   overflow: hidden;
   width: 0;
   background-color: #e5e5e5;
-  padding-top: 60px;
+  padding: 50% 0px;
   transition: 0.3s;
 }
 
@@ -115,15 +121,15 @@
 }
 
 .sideNav .btnClose {
+  border: none;
   position: absolute;
-  top: 0;
+  top: 25px;
   font-size: 36px;
   background: transparent;
-  border: none;
-  color: #b4b4b4;
+  color: #1a1a1a;
   text-align: right;
   width: 30%;
-  margin-left: 68%;
+  margin-left: 65%;
 }
 
 .getStartedbutton {
@@ -133,7 +139,8 @@
 }
 
 .getStartedbutton button {
-  width: 50%;
+  width: 289px;
+  height: 64px;
   font-size: 0.9rem;
   padding: 0.6em;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),

@@ -13,7 +13,7 @@
 }
 
 .container {
-  /* border: 1px solid black; */
+  /* border-top: 1px solid #d1d1d1; */
   padding: 2rem 0rem;
   font-family: Gilroy;
   width: 90%;
@@ -27,7 +27,14 @@
   padding: 3em 0em;
 }
 
+.dot {
+  font-size: 1.5em;
+  position: relative;
+  bottom: 10px;
+}
+
 .socialLinks {
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -40,6 +47,10 @@
 .socialLinks a {
   text-decoration: none;
   color: #6a6a6a;
+  width: 25%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
 }
 
 .logoSection {

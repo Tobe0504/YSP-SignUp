@@ -13,7 +13,7 @@ const DownloadAppSection = () => {
           </h1>
           <p>
             Your study path app will be available on google play store and the
-            app store soon,
+            app store soon
           </p>
           <span className={classes.comingSoon}>Coming Soon...</span>
         </div>

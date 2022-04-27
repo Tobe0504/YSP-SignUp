@@ -112,12 +112,6 @@
     font-size: 1rem;
   }
 
-  .textSection button {
-    /* border: 1px solid black; */
-    position: relative;
-    left: 32%;
-  }
-
   .imageSection {
     width: 100%;
     order: 1;

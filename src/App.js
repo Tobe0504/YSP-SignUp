@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Footer from "./Components/Footer";
 // import SignUp from "./Components/Sign Up/SignUp";
 import LandingPage from "./Components/Landing Page/LandingPage";
@@ -8,7 +9,9 @@ function App() {
     <div>
       {/* <SignUp /> */}
       <LandingPage />
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -11,13 +11,24 @@ const Footer = () => {
     <div className={classes.container}>
       <div className={classes.subContainer}>
         <div className={classes.socialLinks}>
-          <a href="#0">Terms of Services</a>{" "}
-          <a href="#0" className={classes.rightLink}>
-            FAQs{" "}
+          <a href="#0">Terms of Services</a>
+          <a href="#0">
+            <span className={classes.dot}>
+              <b>.</b>
+            </span>
+            <span>FAQs</span>
           </a>
-          <a href="#0">Privacy Policy</a>{" "}
+          <a href="#0">
+            <span className={classes.dot}>
+              <b>.</b>
+            </span>
+            <span>Privacy Policy</span>
+          </a>
           <a href="#0" className={classes.rightLink}>
-            Contact Us{" "}
+            <span className={classes.dot}>
+              <b>.</b>
+            </span>
+            <span>Contact Us</span>
           </a>
         </div>
         <div className={classes.logoSection}>
