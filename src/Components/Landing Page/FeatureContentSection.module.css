@@ -66,10 +66,9 @@
 
 .textSection hr {
   display: inline-block;
-
   color: #1a1a1a;
   position: relative;
-  top: 4px;
+  top: 5px;
   width: 1.5em;
   right: 10px;
 }
