@@ -73,13 +73,15 @@
   .container {
     width: 80%;
     margin: 5em auto;
-    padding: 5em 0em 5em 0em;
+    padding: 14em 0em 14em 0em;
+    /* formerly 5em */
   }
 
   .container h1 {
-    font-size: 1.5rem;
-    width: 80%;
+    font-size: 2rem;
+    width: 90%;
     margin: auto;
+    line-height: 3rem;
   }
 
   .container p {
@@ -87,7 +89,7 @@
     width: 90%;
     margin: 2em auto 2.5em auto;
     font-size: 0.6rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     color: #ffffff;
     font-size: 1rem;
     font-weight: 400;
