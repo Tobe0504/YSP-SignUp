@@ -97,10 +97,9 @@
 
 @media (max-width: 676px) {
   .container {
-    /* border: 1px solid black; */
     background: #f2f3f8;
     width: 90%;
-    margin: auto;
+    margin: 4em auto;
     border-radius: 32px;
   }
 
@@ -115,6 +114,7 @@
 
   .textSection {
     margin: 2em 0em;
+    width: 100%;
   }
 
   .textSection h1 {
@@ -126,7 +126,7 @@
   .textSection p {
     /* border: 1px solid black; */
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 
@@ -163,6 +163,7 @@
 
   .textSection {
     margin: 2em 0em;
+    width: 100%;
   }
 
   .textSection h1 {
@@ -175,19 +176,20 @@
     /* border: 1px solid black; */
     width: 70%;
     margin: 1rem auto;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1rem;
   }
 
   .imageSection {
     /* border: 1px solid black; */
     width: 100%;
+    margin: 1em auto;
+    text-align: center;
   }
 
   .imageSection img {
     /* border: 1px solid green; */
-    width: 60%;
-    height: 60%;
-    /* position: relative; */
+    position: static;
+    width: 70%;
+    margin: auto;
   }
 }

@@ -29,6 +29,7 @@
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80%;
   margin: auto;
   padding: 1.7em 0.5em;
@@ -50,17 +51,43 @@
   position: relative;
   bottom: 10px;
   left: 16px;
-  width: 50%;
+  width: 60%;
   font-family: Gilroy;
   font-weight: 700;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 24px;
+  line-height: 35.26px;
   color: #303030;
+  letter-spacing: 3%;
 }
 
 @media (max-width: 676px) {
   .container {
-    border: 1px solid black;
-    display: none;
+    margin: 4em 0em;
+    padding: 2em 0em;
+  }
+
+  .subContainer {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .subContainer div {
+    /* border: 2px solid black; */
+    margin: 2em;
+  }
+
+  .subContainer div h4 {
+    display: block;
+    position: static;
+    width: 85%;
+    margin: 0.5em auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subContainer {
+    width: 90%;
   }
 }

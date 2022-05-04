@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../Images and Icons/YSP Logo 2.png";
-import menuOpener from "../Images and Icons/menu opener.png";
+import menuOpener from "../Images and Icons/menu opener 2.png";
 import classes from "./LandingPageHeader2.module.css";
 
 const LandingPageHeader2 = () => {

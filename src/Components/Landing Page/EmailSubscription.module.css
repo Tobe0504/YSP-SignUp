@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Light.woff");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Gilroy-Medium.woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../Fonts/AvenirLTStd-Black.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../Fonts/AvenirLTStd-Roman.otf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+.container {
+  /* border: 1px solid black; */
+  background: url("../Images and Icons/Email Sub Background.png") center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subContainer {
+  /* border: 1px solid black; */
+  width: 60%;
+  margin: 11em auto 11em auto;
+}
+
+.subContainer h2 {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44.4px;
+  letter-spacing: 1.5%;
+  text-align: center;
+}
+
+.subContainer p {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.52px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.fillSection input {
+  text-align: center;
+  width: 99%;
+  height: 6.125rem;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 1px rgba(54, 81, 130, 0.1);
+  border-radius: 60px;
+  border: none;
+  text-align: left;
+  font-size: 1em;
+  font-family: Gilroy;
+  font-weight: 400;
+  outline: none;
+  margin: 3em 0em;
+}
+
+.fillSection input::placeholder {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26.88px;
+  letter-spacing: 2%;
+  text-align: left;
+  color: #b0b0b0;
+  padding: 0em 1em;
+}
+
+.fillSection button {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%, #7292cf 100%);
+  border-radius: 40px;
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 20px;
+  height: 66px;
+  width: 184px;
+  position: relative;
+  bottom: 130px;
+  left: 590px;
+  border: none;
+  cursor: pointer;
+}
+
+.fillSection button:hover {
+  background: #2855ae;
+}
+
+.fillSection button:active {
+  background: #7292cf;
+}
+
+@media (max-width: 676px) {
+  .container {
+    background: url("../Images and Icons/Email Sub Background.png") center
+      center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .subContainer {
+    /* border: 1px solid black; */
+    margin: 11em auto;
+    width: 90%;
+  }
+
+  .subContainer p {
+    width: 98%;
+    margin: auto;
+  }
+  .fillSection button {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    background: url("../Images and Icons/Email Sub Background.png") center
+      center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .subContainer {
+    /* border: 1px solid black; */
+    margin: 11em auto;
+    width: 85%;
+  }
+
+  .subContainer p {
+    width: 80%;
+    margin: auto;
+  }
+  .fillSection button {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}

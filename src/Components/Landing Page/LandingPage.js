@@ -9,6 +9,7 @@ import FeatureSummary from "./FeatureSummary";
 import FeatureSection from "./FeatureSection";
 import HowItWorksSection from "./HowItWorksSection";
 import DownloadAppSection from "./DownloadAppSection";
+import EmailSubscription from "./EmailSubscription";
 
 const LandingPage = () => {
   return (
@@ -22,7 +23,10 @@ const LandingPage = () => {
       <AboutSection />
       <FeatureSummary />
       <FeatureSection />
-      <HowItWorksSection />
+      <div className={classes.contactSection}>
+        <HowItWorksSection />
+        <EmailSubscription />
+      </div>
       <DownloadAppSection />
     </div>
   );

@@ -168,9 +168,13 @@
 @media (max-width: 767px) {
   .sideNavOpener {
     display: block;
-    border: 1px solid black;
+  }
+
+  .logoSection {
+    width: 35%;
   }
   .logoSection img {
+    /* border: 1px solid black; */
     width: 100%;
     height: 100%;
   }
@@ -187,6 +191,10 @@
   .sideNavOpener {
     display: block;
     position: relative;
+  }
+
+  .logoSection {
+    width: 30%;
   }
   .logoSection img {
     width: 80%;
