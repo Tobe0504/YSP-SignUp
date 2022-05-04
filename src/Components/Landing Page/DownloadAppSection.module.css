@@ -56,7 +56,7 @@
   font-weight: 600;
   line-height: 146.3%;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 30px;
 }
 
 .ysp {
@@ -75,7 +75,7 @@
   display: block;
   /* border: 1px solid green; */
   color: #2855ae;
-  font-size: 1.2rem;
+  font-size: 20px;
   margin: 1.5em 0em;
   font-weight: 500;
 }
@@ -133,13 +133,23 @@
   .imageSection {
     /* border: 1px solid black; */
     width: 100%;
+    text-align: center;
   }
 
   .imageSection img {
     /* border: 1px solid green; */
-    width: 70%;
-    height: 70%;
-    /* position: relative; */
+    width: 90%;
+    height: 100%;
+    position: static;
+    margin-bottom: 1em;
+  }
+
+  .comingSoon {
+    display: block;
+    /* border: 1px solid green; */
+    color: #2855ae;
+    font-size: 20px;
+    margin: 0em 0em;
   }
 }
 

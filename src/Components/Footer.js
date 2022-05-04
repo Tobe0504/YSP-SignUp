@@ -11,12 +11,12 @@ const Footer = () => {
     <div className={classes.container}>
       <div className={classes.subContainer}>
         <div className={classes.socialLinks}>
-          <a href="#0">Terms of Services</a>
+          <a href="#0">FAQs</a>
           <a href="#0">
             <span className={classes.dot}>
               <b>.</b>
             </span>
-            <span>FAQs</span>
+            <span>Terms of Service</span>
           </a>
           <a href="#0">
             <span className={classes.dot}>

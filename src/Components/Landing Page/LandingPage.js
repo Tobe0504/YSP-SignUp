@@ -22,10 +22,11 @@ const LandingPage = () => {
       </div>
       <AboutSection />
       <FeatureSummary />
-      <FeatureSection />
+
       <div className={classes.contactSection}>
         <HowItWorksSection />
         <EmailSubscription />
+        <FeatureSection />
       </div>
       <DownloadAppSection />
     </div>

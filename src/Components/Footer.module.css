@@ -53,6 +53,10 @@
   justify-content: space-around;
 }
 
+.socialLinks a b {
+  color: #2855ae;
+}
+
 .logoSection {
   /* border: 3px solid green; */
   width: 40%;
@@ -108,26 +112,29 @@
 
   .socialLinks {
     flex-wrap: wrap;
-    width: 90%;
+    width: 70%;
     margin: auto;
     text-align: center;
   }
 
   .socialLinks a {
-    text-decoration: none;
-    color: #6a6a6a;
     width: 50%;
     margin: 0.5em 0em;
     text-align: center;
+    font-size: 16px;
     /* border: 3px solid green; */
   }
   .rightink {
     text-align: right;
   }
 
+  .logoSection {
+    width: 60%;
+  }
+
   .logoSection img {
     /* border: 3px solid green; */
-    width: 60%;
+    width: 50%;
     margin: 1em;
     height: 6em;
   }
@@ -140,10 +147,19 @@
 
   .socialsSection {
     /* border: 1px solid black; */
-    margin: 3em auto;
+    margin: 4em auto;
     width: 80%;
     display: flex;
     justify-content: space-between;
+  }
+
+  .socialsSection a {
+    width: 50%;
+  }
+
+  .socialsSection a img {
+    width: 70%;
+    /* height: 70%; */
   }
 }
 
@@ -176,6 +192,11 @@
     margin: 0.5em 0em;
     text-align: center;
     font-size: 1.2rem;
+  }
+
+  .socialLinks a:nth-child(2) {
+    border: 1px solid black;
+    display: none;
   }
 
   .logoSection img {

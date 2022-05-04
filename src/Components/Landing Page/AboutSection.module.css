@@ -97,10 +97,10 @@
 
 @media (max-width: 676px) {
   .container {
-    /* border: 1px solid black; */
     display: flex;
     margin-bottom: 0em;
     flex-wrap: wrap;
+    width: 90%;
   }
   .textSection {
     width: 100%;

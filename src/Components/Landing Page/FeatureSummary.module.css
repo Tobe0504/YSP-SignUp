@@ -75,7 +75,7 @@
 
   .subContainer div {
     /* border: 2px solid black; */
-    margin: 2em;
+    margin: 3em;
   }
 
   .subContainer div h4 {
@@ -83,6 +83,7 @@
     position: static;
     width: 85%;
     margin: 0.5em auto;
+    font-size: 20px;
   }
 }
 
