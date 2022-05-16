@@ -24,9 +24,9 @@ const LandingPage = () => {
       <FeatureSummary />
 
       <div className={classes.contactSection}>
+        <FeatureSection />
         <HowItWorksSection />
         <EmailSubscription />
-        <FeatureSection />
       </div>
       <DownloadAppSection />
     </div>

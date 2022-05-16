@@ -1,9 +1,6 @@
 import React from "react";
 import classes from "./Description2.module.css";
-import vrImage from "../Images and Icons/VR 1.png";
-import schoolTeen1 from "../Images and Icons/school teen 1.png";
-import schoolTeen2 from "../Images and Icons/school teen 2.png";
-import scribble from "../Images and Icons/Scribble.png";
+
 import scribble2 from "../Images and Icons/Scribble 2.png";
 import scribble3 from "../Images and Icons/Scribble 3.png";
 
@@ -30,7 +27,7 @@ const Description2 = () => {
       </div>
 
       <div className={classes.imageSection}>
-        <div className={classes.imageSubSection}>
+        {/* <div className={classes.imageSubSection}>
           <div className={classes.imageSubSection1}>
             <img src={schoolTeen2} alt=" School teen" />
             <img src={scribble} alt="scribble" />
@@ -39,7 +36,7 @@ const Description2 = () => {
             <img src={vrImage} alt="Virtual Reality" />
             <img src={schoolTeen1} alt=" School teen " />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -21,7 +21,7 @@
 
 .container {
   width: 90%;
-  margin: 8em auto;
+  margin: 8em auto 2em auto;
 }
 
 .container h2 {
@@ -37,7 +37,6 @@
 }
 
 .subContainer div {
-  /* border: 1px solid black; */
   margin: 2em 1em;
   width: 35%;
   text-align: center;
@@ -73,6 +72,10 @@
   }
   .subContainer {
     flex-wrap: wrap;
+  }
+
+  .subContainer div:nth-child(3) {
+    order: 2;
   }
 
   .subContainer div {

@@ -34,22 +34,24 @@
 }
 
 .container {
-  /* border: 1px solid black; */
-  background: url("../Images and Icons/Email Sub Background.png") center center;
+  border: 1px solid transparent;
+  background: url("../Images and Icons/Email Sub Background 2.png") center
+    center;
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 100vh;
 }
 
 .subContainer {
-  /* border: 1px solid black; */
-  width: 60%;
+  /* border: 1px solid green; */
+  width: 55%;
   margin: 11em auto 11em auto;
 }
 
 .subContainer h2 {
   font-family: Gilroy;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 44.4px;
   letter-spacing: 1.5%;
   text-align: center;
@@ -62,6 +64,8 @@
   line-height: 25.52px;
   letter-spacing: 2%;
   text-align: center;
+  width: 85%;
+  margin: auto;
 }
 
 .fillSection input {
@@ -78,6 +82,8 @@
   font-weight: 400;
   outline: none;
   margin: 3em 0em;
+  padding-left: 2em;
+  box-sizing: border-box;
 }
 
 .fillSection input::placeholder {
@@ -88,7 +94,7 @@
   letter-spacing: 2%;
   text-align: left;
   color: #b0b0b0;
-  padding: 0em 1em;
+  /* padding: 0em 1em; */
 }
 
 .fillSection button {
@@ -104,7 +110,7 @@
   width: 184px;
   position: relative;
   bottom: 130px;
-  left: 590px;
+  left: 530px;
   border: none;
   cursor: pointer;
 }

@@ -19,6 +19,13 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: "Metropolis";
+  src: url("../Fonts/Metropolis/Metropolis-SemiBold.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -68,7 +75,8 @@
 }
 
 .textSection button {
-  width: 40%;
+  width: 184px;
+  height: 48px;
   font-size: 0.9rem;
   padding: 0.8em;
   margin: 2.5em 0em;
@@ -77,16 +85,13 @@
   border-radius: 40px;
   border: #2855ae;
   color: #ffffff;
-  font-family: Avenir;
-  font-weight: 100;
+  font-family: Metropolis;
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0px 4px 20px rgba(50, 145, 255, 0.3);
-  /* border: 1px solid black; */
 }
 
 .imageSection {
   width: 50%;
-  /* border: 1px solid black; */
 }
 
 .imageSection img {
@@ -111,6 +116,11 @@
 
   .textSection p {
     font-size: 1rem;
+  }
+
+  .textSection button {
+    width: 184px;
+    height: 48px;
   }
 
   .imageSection {

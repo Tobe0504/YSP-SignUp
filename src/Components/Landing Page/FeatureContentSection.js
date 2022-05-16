@@ -8,10 +8,6 @@ const FeatureContentSection = () => {
   return (
     <div className={classes.container}>
       <div className={classes.subContainer}>
-        <div className={classes.imageSection}>
-          <img src={Feature1} alt="Feature 1" />
-        </div>
-
         <div className={classes.textSection}>
           <hr />
           <span className={classes.aim}>Our Classes</span>
@@ -22,6 +18,9 @@ const FeatureContentSection = () => {
             Classes are taught by well experienced teachers with the aid of
             technology to keep you excited and make learning interesting again.
           </p>
+        </div>
+        <div className={classes.imageSection}>
+          <img src={Feature1} alt="Feature 1" />
         </div>
       </div>
 
@@ -42,9 +41,6 @@ const FeatureContentSection = () => {
       </div>
 
       <div className={classes.subContainer}>
-        <div className={classes.imageSection}>
-          <img src={Feature2} alt="Feature 1" />
-        </div>
         <div className={classes.textSection}>
           <hr />
           <span className={classes.aim}>Our Tutors</span>
@@ -53,6 +49,9 @@ const FeatureContentSection = () => {
             Connect with our expert tutors whenever you might need their help.
             Whatever question you might have they’re always ready to answer.
           </p>
+        </div>
+        <div className={classes.imageSection}>
+          <img src={Feature2} alt="Feature 1" />
         </div>
       </div>
     </div>
