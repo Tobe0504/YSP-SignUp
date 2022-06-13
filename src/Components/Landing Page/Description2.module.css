@@ -60,7 +60,7 @@
   height: 95px;
   position: relative;
   top: 73px;
-  right: 19px;
+  right: 39px;
   transition: cubic-bezier(0, 0.69, 0.98, 0.55) 0.5s;
   transition-delay: 0.1s;
 }
@@ -72,11 +72,13 @@
 .scribble3 {
   display: inline;
   position: relative;
-  left: 480px;
+  left: 310px;
+  /* left: 480px; */
   bottom: 35px;
   margin-bottom: -30px;
   transition: ease-in 0.1s;
   cursor: pointer;
+  /* border: 1px solid green; */
 }
 
 @keyframes shake {
