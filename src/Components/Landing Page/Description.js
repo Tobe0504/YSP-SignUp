@@ -11,7 +11,7 @@ const Description = () => {
         sitting.
       </p>
 
-      <a href="https://app.yourstudypath.com/">
+      <a href="https://staging.yourstudypath.com/onboarding">
         <button>Get Started</button>
       </a>
     </div>

@@ -20,7 +20,7 @@ const LandingPageHeader = () => {
       </div>
 
       <div className={classes.actionSection}>
-        <a href="https://staging.yourstudypath.com/onboarding">Log In</a>
+        <a href="https://staging.yourstudypath.com/login">Log In</a>
         <a
           href="https://staging.yourstudypath.com/onboarding"
           className={classes.learnButton}
